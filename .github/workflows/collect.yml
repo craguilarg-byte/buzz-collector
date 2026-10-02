@@ -4,8 +4,8 @@ on:
   schedule:
     # 12:30 and 21:00 America/Panama (UTC-5, no DST) = 17:30 and 02:00 UTC.
     # GitHub cron is best-effort: expect runs 0-30 min late at busy times.
-    - cron: "30 17 * * *"
-    - cron: "0 2 * * *"
+    - cron: "17 17 * * *"
+    - cron: "47 1 * * *"
   workflow_dispatch:
 
 permissions:
